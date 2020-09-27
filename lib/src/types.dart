@@ -12,6 +12,9 @@ enum PostgreSQLDataType {
   /// Must be a [String].
   text,
 
+  ///Must be a [String].
+  citext,
+
   /// Must be an [int] (4-byte integer)
   integer,
 

@@ -17,6 +17,8 @@ class PostgreSQLFormat {
     switch (dt) {
       case PostgreSQLDataType.text:
         return 'text';
+      case PostgreSQLDataType.citext:
+        return 'citext';
       case PostgreSQLDataType.integer:
         return 'int4';
       case PostgreSQLDataType.smallInteger:

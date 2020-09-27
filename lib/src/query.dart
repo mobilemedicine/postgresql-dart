@@ -310,6 +310,7 @@ class PostgreSQLFormatToken {
 
 class PostgreSQLFormatIdentifier {
   static Map<String, PostgreSQLDataType> typeStringToCodeMap = {
+    'citext': PostgreSQLDataType.citext,
     'text': PostgreSQLDataType.text,
     'int2': PostgreSQLDataType.smallInteger,
     'int4': PostgreSQLDataType.integer,
